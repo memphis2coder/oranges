@@ -1,0 +1,50 @@
+// jumbotron styles
+.jumbotron {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 0;
+  background: linear-gradient(rgba(255, 87, 34, 0.8), rgba(255, 87, 34, 0.8)),
+    url("img/mountains.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  // breakpoint
+  @include for-phone {
+    min-height: 40vh;
+    padding-top: 50px;
+  }
+}
+
+.inline-jumbotron {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  @include font-size(4rem);
+}
+
+.text {
+  @include font-size(1.2rem);
+}
+
+// button styles
+.custom-btn {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border: 2px solid white;
+  @include font-size(1rem);
+}
+
+.fa-arrow-right {
+  transform: scale(2, 1);
+  -webkit-transform: scale(2, 1);
+  -moz-transform: scale(2, 1);
+  -ms-transform: scale(2, 1);
+  -o-transform: scale(2, 1);
+}

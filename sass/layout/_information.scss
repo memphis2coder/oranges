@@ -1,0 +1,9 @@
+#information {
+  background-color: #30336b;
+  min-height: 400px;
+}
+
+#information p {
+  @include font-size(1.1rem);
+  text-align: justify;
+}

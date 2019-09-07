@@ -1,0 +1,52 @@
+// colors
+$primary-color: #ff5722;
+
+// breakpoints
+@mixin for-phone {
+  @media (max-width: 599px) {
+    @content;
+  }
+}
+@mixin for-tablet {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+@mixin for-desktop {
+  @media (min-width: 900px) {
+    @content;
+  }
+}
+
+// base styles
+html {
+  scroll-behavior: smooth;
+}
+
+.title {
+  @include font-size(4rem);
+}
+
+.small-title {
+  @include font-size(2rem);
+}
+
+.text {
+  @include font-size(1rem);
+}
+
+.text-small {
+  padding-top: 0;
+  @include font-size(1rem);
+}
+
+// hr style
+hr {
+  background-color: white;
+  height: 1px;
+}
+
+// button style
+.btn {
+  letter-spacing: 3px;
+}

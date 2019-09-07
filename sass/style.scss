@@ -1,0 +1,10 @@
+@import "../node_modules/rfs/scss";
+@import "base";
+@import "components";
+
+// layout
+@import "layout/navigation";
+@import "layout/banner";
+@import "layout/gallery";
+@import "layout/information";
+@import "layout/footer";

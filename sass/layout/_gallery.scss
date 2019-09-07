@@ -1,0 +1,57 @@
+#gallery {
+  min-height: 200px;
+}
+
+#gallery .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+// card-body styles
+.card-body {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  // breakpoint
+  @include for-desktop {
+    min-height: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+.card-text {
+  text-transform: uppercase;
+}
+
+.card-1 {
+  background-color: #f6e58d;
+}
+
+.card-2 {
+  background-color: #7ed6df;
+}
+
+.card-3 {
+  background-color: #22a6b3;
+}
+
+.card-4 {
+  background-color: #c7ecee;
+}
+
+.card-5 {
+  background-color: #686de0;
+}
+
+.card-6 {
+  background-color: #95afc0;
+}
+
+// hr style
+.custom-hr {
+  width: 160px;
+  margin-left: 0;
+}

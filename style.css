@@ -1,0 +1,216 @@
+html {
+  scroll-behavior: smooth; }
+
+.title {
+  font-size: calc(1.525rem + 3.3vw); }
+  @media (min-width: 1200px) {
+    .title {
+      font-size: 4rem; } }
+
+.small-title {
+  font-size: calc(1.325rem + 0.9vw); }
+  @media (min-width: 1200px) {
+    .small-title {
+      font-size: 2rem; } }
+
+.text {
+  font-size: 1rem; }
+
+.text-small {
+  padding-top: 0;
+  font-size: 1rem; }
+
+hr {
+  background-color: white;
+  height: 1px; }
+
+.btn {
+  letter-spacing: 3px; }
+
+.navbar-brand {
+  color: white !important; }
+
+/* The Overlay (background) */
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s; }
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px; }
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s; }
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1; }
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px; }
+
+@media screen and (max-height: 450px) {
+  .overlay {
+    overflow-y: auto; }
+
+  .overlay a {
+    font-size: 20px; }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px; } }
+.navbar-fixed-top.scrolled {
+  background-color: #130f40 !important;
+  transition: background-color 200ms linear; }
+
+.jumbotron {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 0;
+  background: linear-gradient(rgba(255, 87, 34, 0.8), rgba(255, 87, 34, 0.8)), url("img/mountains.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; }
+  @media (max-width: 599px) {
+    .jumbotron {
+      min-height: 40vh;
+      padding-top: 50px; } }
+
+.inline-jumbotron {
+  display: flex;
+  flex-wrap: wrap; }
+
+.title {
+  font-size: calc(1.525rem + 3.3vw); }
+  @media (min-width: 1200px) {
+    .title {
+      font-size: 4rem; } }
+
+.text {
+  font-size: 1.2rem; }
+
+.custom-btn {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border: 2px solid white;
+  font-size: 1rem; }
+
+.fa-arrow-right {
+  transform: scale(2, 1);
+  -webkit-transform: scale(2, 1);
+  -moz-transform: scale(2, 1);
+  -ms-transform: scale(2, 1);
+  -o-transform: scale(2, 1); }
+
+#gallery {
+  min-height: 200px; }
+
+#gallery .container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+
+.card-body {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+  @media (min-width: 900px) {
+    .card-body {
+      min-height: 300px;
+      padding-left: 100px;
+      padding-right: 100px; } }
+
+.card-text {
+  text-transform: uppercase; }
+
+.card-1 {
+  background-color: #f6e58d; }
+
+.card-2 {
+  background-color: #7ed6df; }
+
+.card-3 {
+  background-color: #22a6b3; }
+
+.card-4 {
+  background-color: #c7ecee; }
+
+.card-5 {
+  background-color: #686de0; }
+
+.card-6 {
+  background-color: #95afc0; }
+
+.custom-hr {
+  width: 160px;
+  margin-left: 0; }
+
+#information {
+  background-color: #30336b;
+  min-height: 400px; }
+
+#information p {
+  font-size: 1.1rem;
+  text-align: justify; }
+
+#footer {
+  background-color: #130f40;
+  min-height: 300px; }
+
+@media (min-width: 900px) {
+  .custom-col {
+    padding-right: 50px; } }
+
+@media (min-width: 900px) {
+  .footer-details {
+    padding-left: 50px; } }
+
+.footer-details h4 {
+  margin-bottom: -5px; }
+
+.footer-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+
+.footer-details p {
+  line-height: 10px; }
+
+.small-title {
+  font-size: calc(1.325rem + 0.9vw); }
+  @media (min-width: 1200px) {
+    .small-title {
+      font-size: 2rem; } }
+
+.text-small {
+  padding-top: 0;
+  font-size: 1rem; }
+
+/*# sourceMappingURL=style.css.map */

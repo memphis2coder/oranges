@@ -1,0 +1,44 @@
+#footer {
+  background-color: #130f40;
+  min-height: 300px;
+}
+
+// give padding right for desktop for form
+.custom-col {
+  @include for-desktop {
+    padding-right: 50px;
+  }
+}
+
+// padding left for desktop for footer details
+.footer-details {
+  @include for-desktop {
+    padding-left: 50px;
+  }
+}
+
+.footer-details h4 {
+  margin-bottom: -5px;
+}
+
+// make it flex
+.footer-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer-details p {
+  line-height: 10px;
+}
+
+// text styles
+.small-title {
+  @include font-size(2rem);
+}
+
+.text-small {
+  padding-top: 0;
+  @include font-size(1rem);
+}
