@@ -48,3 +48,25 @@
   -ms-transform: scale(2, 1);
   -o-transform: scale(2, 1);
 }
+
+/////////////////////////////////////////////////////////
+/* landing.html styles start */
+/////////////////////////////////////////////////////////
+
+.jumbotron-2 {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 0;
+  background: linear-gradient(rgba(19, 15, 64, 0.8), rgba(19, 15, 64, 0.8)),
+    url("img/mountains.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  // breakpoint
+  @include for-phone {
+    min-height: 40vh;
+    padding-top: 50px;
+  }
+}

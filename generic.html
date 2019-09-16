@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+        content="Website designer that you have been looking for.High Quality websites and user experience.">
+    <meta name="keywords" content="Website,WebDesigner,Web">
+    <meta name="Author" content="Antonio K">
+    <!-- font awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!-- my styles-->
+    <link rel="stylesheet" href="style.css">
+    <title>Generic Page</title>
+</head>
+
+<body>
+    <!-- navigation -->
+    <section id="navigation">
+        <header>
+            <nav class="navbar fixed-top navbar-fixed-top">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand">LOGO</a>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                            <a href="index.html">Home</a>
+                            <hr class="small-hr">
+                            <a href="landing.html">Landing</a>
+                            <hr class="small-hr">
+                            <a href="#footer">Contact</a>
+                        </div>
+                    </div>
+                    <div class="ml-auto">
+                        <span style="font-size:30px;cursor:pointer;color:white" onclick="openNav()">&#9776;</span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+    <!-- main-->
+    <section id="main" class="text-white pt-5">
+        <div class="container">
+            <br>
+            <h2 class="title pt-5">Generic</h2>
+            <hr class="custom-hr mb-5">
+            <br>
+            <div class="jumbotron jumbotron-fluid jumbotron-generic"></div>
+            <br>
+
+            <article>
+                <div class="main-text pt-5">
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus praesentium vitae
+                        adipisci a mollitia repudiandae? Quas necessitatibus laudantium atque placeat quia iusto
+                        reprehenderit, nemo modi in. Minus iusto doloremque quidem excepturi. Quis recusandae fugiat
+                        quam quia dicta iste, saepe rerum neque quas ad perferendis non quos aut repudiandae maiores
+                        animi.
+                    </p>
+                    <br>
+                    <p class="text">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                        provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et
+                        dolorum fuga.
+                    </p>
+                    <br>
+                    <p class="text pb-5">
+                        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi
+                        ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate
+                        velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+                        pariatur."
+                    </p>
+                </div>
+            </article>
+            <hr>
+
+            <!-- footer -->
+            <section id="footer" class="text-white py-5">
+                <footer>
+                    <!-- left side -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7 custom-col">
+                                <h3 class="pb-4 small-title">Contact me</h3>
+                                <form>
+                                    <div class="form-group">
+                                        <label for="name">NAME</label>
+                                        <input type="text" class="form-control rounded-0" id="name" name="name"
+                                            aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="form-group pt-3">
+                                        <label for="email">YOUR EMAIL</label>
+                                        <input type="email" class="form-control rounded-0" id="email" name="email">
+                                    </div>
+                                    <div class="form-group pt-3">
+                                        <label for="message">MESSAGE</label>
+                                        <textarea class="form-control rounded-0" id="message" name="message"
+                                            rows="5"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-outline-light custom-btn mt-4">
+                                        Submit
+                                    </button>
+                                </form>
+                                <hr class="my-5">
+                            </div>
+                            <!-- right side -->
+                            <div class="col-md-5 footer-details">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col">
+                                            <h4>Email</h4>
+                                            <br>
+                                            <p class="text-small">information@test.com</p>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col pt-3">
+                                            <h4>Phone</h4>
+                                            <br>
+                                            <p class="text-small">(555) 555-5555</p>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col pt-3">
+                                            <h4>Address</h4>
+                                            <br>
+                                            <p class="text-small">1234 Somewhere Road #1234</p>
+                                            <p class="text-small">Memphis, TN 1234</p>
+                                            <p class="text-small">United States of America</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="text-center mt-5">&copy Copyright a.k</p>
+                </footer>
+            </section>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <!-- ADDITIONAL JS HERE -->
+    <script src="app.js"></script>
+</body>
+
+</html>

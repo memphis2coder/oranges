@@ -1,9 +1,17 @@
 #information {
-  background-color: #30336b;
+  background-color: $light-blue;
   min-height: 400px;
 }
 
 #information p {
   @include font-size(1.1rem);
   text-align: justify;
+}
+
+/////////////////////////////////////////////////////////
+/* landing.html styles start */
+/////////////////////////////////////////////////////////
+#information-landing {
+  background-color: $light-blue;
+  min-height: 200px !important;
 }

@@ -1,0 +1,15 @@
+#main,
+body {
+  background-color: $dark-blue;
+}
+
+.jumbotron-generic {
+  min-height: 400px;
+}
+
+#main,
+.custom-col {
+  @include for-desktop {
+    border-right: 1px solid white;
+  }
+}

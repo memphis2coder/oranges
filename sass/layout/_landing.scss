@@ -1,0 +1,25 @@
+// landing.html styles //
+
+.offset-row {
+  min-height: 400px;
+}
+
+.dark-blue {
+  background-color: $dark-blue;
+  min-height: 400px;
+}
+
+.light-blue {
+  background-color: $light-blue;
+  min-height: 400px;
+}
+
+.grey-background {
+  background: rgb(175, 175, 179);
+  background: linear-gradient(
+    41deg,
+    rgba(175, 175, 179, 1) 0%,
+    rgba(245, 236, 236, 1) 63%
+  );
+  min-height: 400px;
+}

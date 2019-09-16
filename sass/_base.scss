@@ -1,5 +1,7 @@
 // colors
 $primary-color: #ff5722;
+$light-blue: #30336b;
+$dark-blue: #130f40;
 
 // breakpoints
 @mixin for-phone {
@@ -32,7 +34,7 @@ html {
 }
 
 .text {
-  @include font-size(1rem);
+  @include font-size(0.9rem);
 }
 
 .text-small {
@@ -44,6 +46,13 @@ html {
 hr {
   background-color: white;
   height: 1px;
+}
+
+// small hr
+.small-hr {
+  width: 10%;
+  height: 0.1px;
+  opacity: 0.4;
 }
 
 // button style

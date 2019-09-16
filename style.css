@@ -14,7 +14,7 @@ html {
       font-size: 2rem; } }
 
 .text {
-  font-size: 1rem; }
+  font-size: 0.9rem; }
 
 .text-small {
   padding-top: 0;
@@ -24,8 +24,17 @@ hr {
   background-color: white;
   height: 1px; }
 
+.small-hr {
+  width: 10%;
+  height: 0.1px;
+  opacity: 0.4; }
+
 .btn {
   letter-spacing: 3px; }
+
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 .navbar-brand {
   color: white !important; }
@@ -53,7 +62,7 @@ hr {
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 23px;
   color: #818181;
   display: block;
   transition: 0.3s; }
@@ -81,7 +90,8 @@ hr {
     right: 35px; } }
 .navbar-fixed-top.scrolled {
   background-color: #130f40 !important;
-  transition: background-color 200ms linear; }
+  transition: background-color 200ms linear;
+  border-bottom: 1px solid white; }
 
 .jumbotron {
   min-height: 80vh;
@@ -126,6 +136,22 @@ hr {
   -moz-transform: scale(2, 1);
   -ms-transform: scale(2, 1);
   -o-transform: scale(2, 1); }
+
+/* landing.html styles start */
+.jumbotron-2 {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 0;
+  background: linear-gradient(rgba(19, 15, 64, 0.8), rgba(19, 15, 64, 0.8)), url("img/mountains.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; }
+  @media (max-width: 599px) {
+    .jumbotron-2 {
+      min-height: 40vh;
+      padding-top: 50px; } }
 
 #gallery {
   min-height: 200px; }
@@ -179,6 +205,11 @@ hr {
   font-size: 1.1rem;
   text-align: justify; }
 
+/* landing.html styles start */
+#information-landing {
+  background-color: #30336b;
+  min-height: 200px !important; }
+
 #footer {
   background-color: #130f40;
   min-height: 300px; }
@@ -212,5 +243,33 @@ hr {
 .text-small {
   padding-top: 0;
   font-size: 1rem; }
+
+.offset-row {
+  min-height: 400px; }
+
+.dark-blue {
+  background-color: #130f40;
+  min-height: 400px; }
+
+.light-blue {
+  background-color: #30336b;
+  min-height: 400px; }
+
+.grey-background {
+  background: #afafb3;
+  background: linear-gradient(41deg, #afafb3 0%, #f5ecec 63%);
+  min-height: 400px; }
+
+#main,
+body {
+  background-color: #130f40; }
+
+.jumbotron-generic {
+  min-height: 400px; }
+
+@media (min-width: 900px) {
+  #main,
+  .custom-col {
+    border-right: 1px solid white; } }
 
 /*# sourceMappingURL=style.css.map */
